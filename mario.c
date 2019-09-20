@@ -5,7 +5,9 @@ int main(void) {
 
   do {
     printf("Height: ");
-    scanf("%i", &height);
+    scanf("%d", &height);
+    int c;
+    while((c = getchar()) != '\n' && c != EOF); {}
   } while(height < 0 || height > 23);
 
   int i; int j; int n;
@@ -22,4 +24,6 @@ int main(void) {
     printf("\n");
 
   }
+  printf("\n");
+
 }
