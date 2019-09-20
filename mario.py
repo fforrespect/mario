@@ -13,4 +13,4 @@ while 1:
         pass
 
 # prints the output, by using a for loop, and calculating the difference between the height and how many ' 's or '#'s have been printed
-print("\n".join([" "*(height-i) + "#"*i + "  " + "#"*i + " "*(height-i) for i in range(1, height+1)]))
+print("\n".join([" "*(height-i) + "#"*i + "  " + "#"*i + " "*(height-i) for i in range(1, height+1)]) + "\n")
